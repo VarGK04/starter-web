@@ -14,7 +14,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 sh 'java -version'
-                sh 'git pull'
+                sh 'git pull origin master'
             }
         }
     }
